@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+    <meta name="description" content="Somnium IT Solutions - Transforming Businesses with Data and Cloud Solutions">
+    <meta name="keywords" content="IT Solutions, Cloud Computing, Data Analytics, Digital Transformation, Business Solutions">
+    <meta property="og:title" content="Somnium IT Solutions">
+    <meta property="og:description" content="Transform your business with our cutting-edge data and cloud solutions">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Somnium IT Solutions">
+    <meta name="twitter:description" content="Transform your business with our cutting-edge data and cloud solutions">
+    <title>Somnium IT Solutions</title>
+    <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/@supabase/supabase-js@2"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <link href="styles/main.css" rel="stylesheet">
+</head>
+<body>
+    <script>
+        (function() {
+            window.supabaseClient = supabase.createClient(
+                'https://ylhrbknavccdkmtiftke.supabase.co',
+                'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InlsaHJia25hdmNjZGttdGlmdGtlIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDE4MjM3MTgsImV4cCI6MjA1NzM5OTcxOH0.T7aJwtqP-O3iMRpPWGa7_qH__roCwKOXHouQJmq2Xp8'
+            );
+        })();
+    </script>
+
+    <div id="root"></div>
+    
+    <script type="text/babel" src="components/Logo.js"></script>
+    <script type="text/babel" src="components/Navbar.js"></script>
+    <script type="text/babel" src="components/Hero.js"></script>
+    <script type="text/babel" src="components/Services.js"></script>
+    <script type="text/babel" src="components/About.js"></script>
+    <script type="text/babel" src="components/ApplicationForm.js"></script>
+    <script type="text/babel" src="components/Opportunities.js"></script>
+    <script type="text/babel" src="components/Testimonials.js"></script>
+    <script type="text/babel" src="components/Contact.js"></script>
+    <script type="text/babel" src="components/Footer.js"></script>
+    <script type="text/babel" src="components/ChatBot.js"></script>
+    <script type="text/babel" src="app.js"></script>
+    <script type="text/babel" src="components/ThemeToggle.js"></script>
+    <script type="text/babel" src="components/Faq.js"></script>
+    <script type="text/babel" src="components/EmailService.js"></script>
+    <script type="text/babel" src="utils/DatabaseService.js"></script>
+    <script type="text/babel" src="utils/EmailService.js"></script>
+    <script type="text/babel" src="components/ApplicationManager.js"></script>
+</body>
+</html>
